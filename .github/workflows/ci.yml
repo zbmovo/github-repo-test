@@ -28,5 +28,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          BRANCH: gh-pages  # 将部署到的分支修改为 gh-pages，这是 GitHub Pages 默认的分支
-          FOLDER: build  # 你要部署的文件夹路径
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
