@@ -1,0 +1,9 @@
+{
+  "name": "github-repo-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zbmovo/github-repo-test.git",
+  "author": "zbmovo <zbmovo@foxmail.com>",
+  "homepage": "https://zbmovo.github.io/github-repo-test",
+  "license": "MIT"
+}
